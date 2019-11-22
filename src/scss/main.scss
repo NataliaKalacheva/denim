@@ -1,0 +1,71 @@
+$dark: #151c22;
+$grey: #f1f2f4;
+$light: #ffffff;
+
+@import "normalize";
+@import "header-nav.scss";
+@import "about.scss";
+@import "catalog.scss";
+@import "new.scss";
+@import "social.scss";
+@import "footer-nav.scss";
+
+body {
+  margin: 0 auto;
+  background: $light;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 16px;
+  color: $dark;
+}
+
+a {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: $dark;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo {
+  display: block;
+  width: 100%;
+  padding: 20px;
+
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+  background: $light;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  min-width: 204px;
+  min-height: 64px;
+  padding: 27px 17px;
+  box-sizing: border-box;
+
+  border: none;
+  background: $dark;
+  color: $light;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  cursor: pointer;
+}

@@ -1,0 +1,39 @@
+// about
+// about__wrapper
+// about__img
+// about__title
+// about__moto
+// button--about
+
+$dark: #151c22;
+$grey: #f1f2f4;
+$light: #ffffff;
+$light-grey: #727a82;
+
+.about {
+  padding-bottom: 50px;
+  background: $grey;
+}
+
+.about__title {
+  margin: 20px 0 40px;
+  font-family: "Anton", sans-serif;
+  font-size: 86px;
+  line-height: 126px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.about__moto {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: $light-grey;
+}
+
+.about__wrapper {
+  text-align: center;
+}
+
+// .button--about {
+
+// }
